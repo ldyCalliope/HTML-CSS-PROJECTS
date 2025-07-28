@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e3f2fd;
+}
+
+.container {
+  position: relative;
+  background-color: #0055A5;
+  padding: 25px;
+  border-radius: 28px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+header, 
+.logo {
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 80px;
+}
+
+header h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+/* Middle Section */
+.container .middle-section {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content:  space-between;
+}
+
+.middle-section .chip-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 70px;
+  height: 40px;
+  background: rgba(0, 85, 165, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+middle-section,
+.chip-container .chip {
+  width: 40px;
+  margin-left: 5px;
+}
+
+.middle-section .contactless {
+  width: 70px;
+  height: 40px;
+  background: rgba(0, 85, 165, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.contactless img {
+  width: 40px;
+  background-color: transparent;
+}
+
+/* Card Details Section */
+.container .card-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h5.number {
+  margin-top: 10px;
+  margin-left: 4px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+h5.card-num-preview {
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+h6.valid-thru {
+  color: #333333;
+  font-size: 12px;
+}
+
+h5.date {
+  font-size: 10px;
+}
+
+h6.valid-thru, h5.date {
+  margin-left: 120px;
+}
+
+h5.name {
+  font-size: 16px;
+}
+
+h5.name, h5.code {
+  margin-left: 4px;
+}
+img.logo-bank {
+  width: 50px;
+}
+
+.container .name-code-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

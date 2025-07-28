@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BDO Debit Card Ui Design</title>
+  <link rel="stylesheet" href="bdo-debit-card.css">
 </head>
 <body>
   <div class="container">
@@ -13,13 +14,13 @@
     <header>
       <span class="logo">
         <img src="images/bdo-logo.png" alt="">
-        <h5>debit</h5>
       </span>
+      <h5>debit</h5>
     </header>
 
     <div class="middle-section">
-      <div class="chip">
-        <img src="images/chip.png" alt="">
+      <div class="chip-container">
+        <img class="chip" src="images/chip.png" alt="">
       </div>
 
       <div class="contactless">
@@ -31,18 +32,24 @@
 
       <div class="debit-number">
         <h5 class="number">5010 7012 0025 7080</h5>
-        <h4 class="card-num-preview">5010</h4>
+        <h5 class="card-num-preview">5010</h4>
       </div>
-
+      
       <div class="valid-date">
-        <h6>Valid Thru</h6>
-        <h5>05/28</h5>
+        <h6 class="valid-thru">VALID THRU</h6>
+        <h5 class="date">05/28</h5>
       </div>
 
-      <div class="name-code">
-        <h5>Ashley Corby</h5>
-        <h5>01876</h5>
+      <div class="name-code-logo">
+        <div class="name-code">
+          <h5 class="name">Ashley Maine Corby</h5>
+          <h5 class="code">01876</h5>
+        </div>
+        <img class="logo-bank" src="images/logo.png" alt="">
       </div>
+
+
+        
     </div>
 
   </div>
