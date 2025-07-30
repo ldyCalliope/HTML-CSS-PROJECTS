@@ -8,29 +8,26 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f4f4f4;
+  background: #f4f4f4;
 }
 
 .container {
   position: relative;
-  height: 225px;
-  width: 375px;
-  z-index: 100;
-  transition: 0.6s;
-  transform-style: preserve-3d;
+  background-color: #0055A5;
+  padding: 25px;
+  border-radius: 28px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.container .card{
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  padding: 25px;
-  border-radius: 25px;
-  background-color:  #0055A5;
-  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
-  border: 1px solid #0055A5;
+/*ICONS CONTAINER*/
+.container .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
