@@ -4,3 +4,40 @@ CodingLab
 personal project:
 - bdo debit card
 - smac card
+
+-----------------------------------------------------
+
+🔍 What it does
+The transform property combines multiple transformations in a single line:
+1️⃣ scale(1.05)
+→ This makes the element 5% bigger than its normal size.
+
+1 = 100% size
+
+1.05 = 105% size
+
+2️⃣ rotate(-12deg)
+→ This rotates the element 12 degrees counterclockwise.
+
+Negative degrees = rotate left
+
+Positive degrees = rotate right
+
+3️⃣ translateY(6px)
+→ This moves the element down by 6 pixels.
+
+translateY = vertical shift
+
+Positive value = moves down
+
+Negative value = moves up
+
+✅ How it works
+translateX() moves the element horizontally:
+
+Positive value → right
+
+Negative value → left
+
+
+

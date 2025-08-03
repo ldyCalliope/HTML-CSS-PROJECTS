@@ -18,11 +18,26 @@ body {
 .container {
   position: relative;
   background-color: #0055A5;
-  padding: 25px;
-  border-radius: 28px;
-  max-width: 380px;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 430px;
   width: 100%;
+  height: 280px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .name {
+  color: #fff;
+  font-size: 89px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: -20px;
 }
 
 /*ICONS CONTAINER*/
@@ -30,4 +45,57 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+/*Base Circle Style*/
+.icons .icon-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/*Specific Colors*/
+.icons .icon-circle-blue {
+  background-color: #00B6D6;
+}
+.icons .icon-circle-red {
+  background-color: #EB1C24;
+}
+.icons .icon-circle-pink {
+  background-color:  #EF7998;
+}
+.icons .icon-circle-yellow {
+  background-color: #F2B705;
+}
+
+
+/* All icons inside circles */
+.icons .icon-circle img {
+  width: 85%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Individual tweaks for SMAC style */
+.icons .icon-circle-blue img {
+  transform: scale(1.05) rotate(15deg) translateY(5px);
+}
+
+.icons .icon-circle-red img {
+  transform: scale(1.05) rotate(-20deg) translateX(-5px) translateY(6px);
+}
+
+.icons .icon-circle-pink img {
+  transform: scale(0.95) rotate(0deg) translateX(3px)translateY(10px);
+}
+
+.icons .icon-circle-yellow img {
+  transform: scale(1.05) rotate(0deg) translateY(5px);
 }
